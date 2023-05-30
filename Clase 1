@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="application-name" content="Primer sitio en curso HTML">
+    <meta name="author" content="Paula Romero">
+    <meta name="keywords" content="html">
+    <title>Mi Primer Sitio</title>
+    </head>
+   <body>
+    <h1>Nuestro Primer Sitio Web</h1>
+    <p>Bienvenidos a nuestro primer sitio!</p>
+    <p>A lo largo de la cursada serán más complejas y lucirán mejor las páginas... <b>espero.</b></p>
+   </body>
+</html>
