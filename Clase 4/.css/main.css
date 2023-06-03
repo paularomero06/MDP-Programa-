@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #CECECE;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+header{
+    width:100%;
+    height:70px;
+    background-color: white;
+    padding-left: 20px;
+}
+header img{
+    max-width: 135px;
+    float:left;
+}
+header nav{
+    height:70px;
+    padding-top: 10px;
+}
+header nav ol li{
+    float:left;
+    list-style-type: none;
+    height:70px
+}
+header nav ol li a{
+    text-decoration: none;
+    padding:15px;
+    display: inline-block;
+    color:black;
+}
+header nav ol li a:hover{
+    background-color: black;
+    color:white;
+}
+main{
+    width: 70%;
+    background-color: rgba(177, 198, 238, 0.897);
+    float:left;
+    }
+main section{
+    padding: 30px;
+}
+main section h2{
+    color:white;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+main section p{
+    color:black;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 200%;
+}
+aside{
+    width: 30%;
+    background-color: rgba(213, 158, 240, 0.849);
+    padding: 30px;
+    float:left;
+}
+aside h2, aside ul li{
+    color:white;
+    margin-bottom: 15px;
+}
+aside ul li{
+    list-style-type: none;
+    border-bottom: 1px solid white;
+}
+aside ul li:hover{
+    border:1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+  }
+  .containt{
+    max-width: 1000px;
+    margin: 0px auto;
+  } 
+  footer{
+    clear:both;
+    width: 70%;
+    background-color: #ecb9ec;
+    padding: 55px;
+    padding-bottom: 45%;
+}
+footer section{
+    width: 30%;
+    float:left;
+}
+footer section p{
+    text-align:center;
+    line-height: 150%;
+   }
+   .card{
+    box-shadow: 0 4px 8px 0 rgba(238, 65, 215, 0.685);
+    transition: 0.3s;
+    border-radius: 10px;
+    width: 100%;
+   } 
+   .card img{
+    max-width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+   }
+   .card .container{
+    padding: 10px;
+   }
+   .card:hover{
+    box-shadow: 0 8px 16px 0 rgb(185, 55, 236) ;
+    opacity: 0.7;
+   }
+   .card .container h4{
+     text-align:center;
+     padding-bottom: 3px;
+   }
