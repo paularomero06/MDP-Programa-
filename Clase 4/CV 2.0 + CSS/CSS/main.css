@@ -47,9 +47,13 @@ main section p{
 }
 main section ul li{
     line-height: 150%;
+    list-style-position: inside;
+    
 }
 main section ol li{
     line-height: 150%;
+    list-style-position: inside;
+    
 }
 aside{
     width: 30%;
