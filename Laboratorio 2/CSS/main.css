@@ -1,0 +1,219 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Montserrat';
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #fcc875;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: fixed;
+}
+header img{
+    max-width: 100px;
+    float: right;
+}
+header nav{
+    height: 100px;
+    margin-top: 30px;
+    float:left;
+}
+header nav ul li{
+    list-style-type: none;
+    float:left;
+}
+header nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    color: black;
+    font-family: 'Poppins';
+}
+header nav ul li a:hover{
+    color:#ff0000;
+    font-weight: bold;
+}
+aside{
+    clear:both;
+    width: 30%;
+    padding:100px 20px 20px 20px;
+    border-right: 1px solid#fcc875;
+    float:left;
+}
+aside p{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+aside nav ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border:2px solid #ff0000;
+    border-radius: 10px ;
+}
+aside nav ul li a{
+    text-decoration: none;
+    color: #66bd60;
+}
+aside nav ul li:hover, aside nav ul li a:hover{
+    border: 2px solid #66bd60;
+    color:#ff0000
+}
+aside form{
+    width:100%;
+    padding: 20px;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+}
+aside form h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+aside form input, aside form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+aside form textarea{
+    height: 80px;
+}
+aside form button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+aside form button:hover{
+    background-color: #66bd60; 
+}
+aside form input:focus, aside form textarea:focus{
+    background-color: #fcc875;
+}
+::placeholder{
+    color: black;
+}
+main {
+    width: 70%;
+    float: left;
+    padding: 112.5px 20px 20px 20px;
+}
+main section .card{
+    width: 30%;
+    margin: 10px;
+    border: 2px solid #66bd60;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px #fcc875;
+    clear: both;
+    display: inline-block;
+   }
+
+main section .card-imagen{
+   background-image: url(../images/pizzamargarita.jpg);
+}
+main section .card-imagen2{
+    background-image: url(../images/italian1.png);
+}
+main section .card-imagen3{
+    background-image: url(../images/italian.jpg);
+}
+main section .card-imagen4{
+    background-image: url(../images/chicago.jpg);
+}
+main section .card-imagen5{
+    background-image: url(../images/chicago1.jpg);
+}
+main section .card-imagen6{
+    background-image: url(../images/chicago2.jpg);
+}
+main section .card-imagen7{
+    background-image: url(../images/nyc.jpg);
+}
+main section .card-imagen8{
+    background-image: url(../images/nyc1jpg.jpg);
+}
+main section .card-imagen9{
+    background-image: url(../images/pepperoni.jpg);
+}
+main section .card .card-imagen,  .card-imagen2,  .card-imagen3, .card-imagen4, .card-imagen5, .card-imagen6, .card-imagen7, .card-imagen8, .card-imagen9{
+    height: 300px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px;
+}
+main section h1 {
+    width: 40%;
+    padding: 10px;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 6px;
+    font-weight: bold;
+    border: 3px ridge black;
+    box-shadow:1px 1px 1px 1px #ff0000;
+}
+
+main section .description{
+    padding: 10px;
+}
+main section button{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 10px;
+    color: black;
+    background-color: #66bd60;
+    cursor: pointer;
+
+}
+main section p{
+    background-color: #66bd60;
+    padding: 5px;
+    width: 60px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 0px 0px 10px 10px ;
+}
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #fcc875;
+    margin: 0;
+    padding: 20px;
+}
+footer div span {
+    float: right;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+footer div a{
+    font-size: 25px;
+}
+
