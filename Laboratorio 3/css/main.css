@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.flotante{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.flotante button{
+    height: 50px;
+    width: 50px;
+    background-color:green;
+    border-radius: 100%;
+    border: none;
+}
+.flotante button i{
+    color: white;
+    font-size: 30px;
+}
+.flotante button:hover{
+    background-color: white;
+}
+.flotante button:hover > i{
+    color: green;
+}
+header{
+    background-color: #f7da8c;
+    display: flex;
+    height: 20vh;
+}
+header .logo img{
+    max-width: 40%;
+}
+header .logo{
+    padding: 10px;
+    width:22%;
+    background-image: url(../images/logo.png);
+    background-position: center;   
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header nav{
+    width:78%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+header nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+header nav ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+} 
+header nav ul a:hover{
+   color:brown; 
+   font-size: 20px;
+   border-bottom: 2px solid black;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    display: flex;
+    background-color: #cecece;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+main .card{
+    width:23%;
+    background-color: white;
+    margin: 10px;
+    border-radius:20px;
+    justify-content: space-around;
+}
+main .card .image img{
+    max-width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+main .card .precio{
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    border-left: 2px solid blue;
+    text-align: center;
+}
+main .card .titulo{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+}
+main .card .cart{
+    display: none;
+}
+main .card .precio:hover{
+    color:#007209;
+    font-size: 22px;
+    cursor:pointer;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+main .card .precio:hover .cart{
+    display:inline-block;
+}
