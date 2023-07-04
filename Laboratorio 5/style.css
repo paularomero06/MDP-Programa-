@@ -1,0 +1,14 @@
+.carousel-inner{
+    padding: 0px;
+    margin: 0px;
+}
+
+.contendor-carousel{
+    margin: 0px;
+}
+
+.max-h-600{
+    max-height: 600px;
+    height: 600px;
+}
+
